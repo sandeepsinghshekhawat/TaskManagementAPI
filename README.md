@@ -4,7 +4,7 @@ This project has two parts - Front End and Back End and this is Beackend part.
 To run the Task Manager Application you need to run the backend application first.
 
 
-## Steps to Execute
+## Steps to Execute Project
 
 ### Update Connection String in appsettings.json
 
@@ -37,5 +37,13 @@ Press the F5, you will see the swagger screen as below:
 
 ![image](https://github.com/user-attachments/assets/06298b4e-230c-484a-ac3e-241f541b1c25)
 
+
+## Steps to Run XUnit Test Project
+
+Open package manager console and run following command
+
+```
+dotnet test
+```
 
 
