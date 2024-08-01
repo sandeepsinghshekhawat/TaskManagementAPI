@@ -18,7 +18,7 @@ To
 
 ```
 "ConnectionStrings": {
-    "DefaultConnection": "Server={Your_Server_Name};Database=TasksDb;Trusted_Connection=True;TrustServerCertificate=True"
+    "DefaultConnection": "Server={<mark>Your_Server_Name</mark>};Database=TasksDb;Trusted_Connection=True;TrustServerCertificate=True"
   },
 ```
 
