@@ -35,6 +35,7 @@ dotnet ef database update
 
 Press the F5, you will see the swagger screen as below:
 
+![image](https://github.com/user-attachments/assets/06298b4e-230c-484a-ac3e-241f541b1c25)
 
 
 
