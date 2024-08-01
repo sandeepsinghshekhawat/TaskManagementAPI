@@ -38,11 +38,13 @@
         {
             if (task == null)
             {
+                // Return Bad Request if task object is null
                 return BadRequest("Task is null.");
             }
 
             if (!ModelState.IsValid)
             {
+                // Return bad request if input data is not valid, for example description length > 200
                 return BadRequest(ModelState);
             }
 
@@ -67,6 +69,7 @@
 
                 if (task == null)
                 {
+                    // Return Not Found if no task found with provided id
                     return NotFound($"Task with Id = {id} not found.");
                 }
 
@@ -88,6 +91,7 @@
 
                 if (!isDeleted)
                 {
+                    // Return Not Found if no task found with provided id
                     return NotFound($"Task with Id = {id} not found.");
                 }
 
